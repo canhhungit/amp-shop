@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseURL = `https://www.omdbapi.com/?apikey=${process.env.apiKey}`
+const baseURL = `https://www.omdbapi.com/?apikey=7f517297`
 
 export async function getMovies(keyword, year, page = 1) {
   if (!keyword) return
