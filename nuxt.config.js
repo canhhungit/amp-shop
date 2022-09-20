@@ -40,8 +40,12 @@ const modifyHtml = html => {
 }
 
 module.exports = {
-  mode: 'universal',
-
+  buildDir: 'dist',
+  generate: {
+    dir: 'dist'
+  },
+  // mode: 'universal',
+  ssr: 'true',
   /*
    ** Headers of the page
    */
