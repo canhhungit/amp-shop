@@ -41,9 +41,6 @@ const modifyHtml = html => {
 
 module.exports = {
   buildDir: 'dist',
-  generate: {
-    dir: 'dist'
-  },
   // mode: 'universal',
   ssr: 'true',
   /*
