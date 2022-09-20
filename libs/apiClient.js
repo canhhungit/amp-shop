@@ -22,3 +22,20 @@ export function getUrl(keyword, page = 1) {
   const offset = page || 1
   return `${baseURL}&type=movie&s=${keyword}&page=${offset}`
 }
+
+export async function getProduct(itemId) {
+  // if (!keyword) return
+
+  // const offset = page || 1
+
+  const url = `https://api.shopingo.vn/lazada/1256710918`
+
+  const res = await axios.get(url)
+
+  if (!res || !res.data || res.data.Response === 'False') {
+    console.error('記事覧の取得に失敗しました')
+    return []
+  }
+
+  return res.data
+}

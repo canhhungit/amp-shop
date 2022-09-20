@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="footer">
-      <div class="credits">
+      <!-- <div class="credits">
         <span>Made by: <a href="https://github.com/cvetkovskin" target="_blank">Nikola Cvetkovski</a></span>
         <span>
           Banner background image by
@@ -19,7 +19,7 @@
             Pixabay
           </a>
         </span>
-      </div>
+      </div> -->
     </div>
   </footer>
 </template>
