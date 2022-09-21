@@ -41,8 +41,8 @@ const modifyHtml = html => {
 }
 
 module.exports = {
-  buildDir: 'dist',
-  // mode: 'universal',
+  // buildDir: 'build-dist',
+  mode: 'universal',
   ssr: 'true',
   /*
    ** Headers of the page
